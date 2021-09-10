@@ -1,0 +1,145 @@
+/*
+Theme Name:     Dongo - vCard / Resume / Portfolio 
+Theme URI:      https://kazemlatifi.ir
+Author:         masoud0098
+Author URI:     https://kazemlatifi.ir
+Version:        1.0.0
+*/
+
+/*header*/
+.header .profile {
+    direction: rtl;
+    margin-right: -15px;
+}
+
+.header .profile img {
+    margin-left: 15px;
+}
+
+.btn-toggler {
+    right: 30px !important;
+    margin-right: auto; 
+}
+
+.btn-toggler span {
+    top: 10px !important;
+    left: 10px !important;
+ 
+}
+
+.ml-auto, .mx-auto {
+    margin-right: auto!important;
+}
+a.desc {
+    margin: 14px;
+}
+
+/*text*/
+.row {
+    float: auto;;
+    text-align: right;
+    width: 100%;
+}
+/*home*/
+span {
+    margin: 4px;
+}
+
+.home .content .info li {
+    font-family: none;
+}
+
+a.text-dark {
+    font-family: none;
+}
+
+/*about me*/
+.align-items-center {
+    direction: rtl;
+}
+h6.cd-headline.clip.text-dark.mb-15 {
+    font-family: 'vazir';
+}
+.about .bio {
+    margin-bottom: 30px;
+    margin-left: -30px;
+}
+img {
+    background-color: #e5f6fc;
+}
+/*resume*/
+.btn-custom {
+    direction: rtl;
+}
+/*skill*/
+.skills {
+    text-align: left;
+}
+.row.mb-10 {
+    DIRECTION: LTR;
+}
+.ml-auto, .mx-auto {
+    margin-right: auto !important;
+}
+
+/*service*/
+ 
+.content {
+    margin-right: auto
+}
+.services .item .circle {
+
+    margin-right: 0px !important;
+}
+
+.fact-item{
+    font-size: 20px;
+}
+
+.fact-item:hover {
+    color: #00a3e1;
+    transform: translatey(-10px);
+    background-color: #e5f6fc;
+}
+
+
+
+/*portfolio*/
+.portfolio .item .image .overly .details a{
+    margin: 5px;
+}
+/*.portfolio .item .image .overly {
+    display: none !important;
+}*/
+img.mfp-img {
+ 
+    filter: blur(10px);
+}
+
+/*contac page*/
+.contact .contact-info {
+    margin-bottom: 30px;
+    direction: rtl;
+}
+.form {
+    direction: rtl;
+}
+
+.contact .contact-info .item .icon {
+    margin-left: 10px;
+}
+
+/*nav*/
+span {
+    margin: 5px;
+    letter-spacing: 0px !important;
+    text-shadow: 1px 2px 8px #666;
+  }
+@media screen and (max-width: 768px){
+.nav {
+    right:0
+    }
+}
+.info-tab {
+    direction: rtl;
+}
